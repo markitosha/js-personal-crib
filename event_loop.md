@@ -14,6 +14,8 @@ Here's the generalized algorithm of the Event Loop:
 
 This simple algorithm allows JavaScript to effectively manage and handle both synchronous tasks and asynchronous callbacks.
 
+<br />
+
 ### Microtasks
 Microtasks are tasks that get executed right after the currently executing script and before any other tasks get processed. Promise callbacks, MutationObserver callbacks, and queueMicrotask() tasks are considered microtasks.
 

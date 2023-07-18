@@ -1,12 +1,10 @@
-
-### Promises
+# Promises
 
 - **Settled Promise**: A Promise whose outcome is already determined.
 - **Pending Promise**: A Promise whose outcome is not yet determined.
 - **Executor**: The function passed to the `new Promise` constructor. It contains the instructions for the Promise.
 - **Promise Chaining**: A technique where `.then` or `.catch` methods return a new promise, allowing these methods to be chained together.
 - **Unhandled Rejection**: An event that is triggered when a Promise is rejected, but no error handler is attached to handle it.
-
 
 Example:
 ```javascript
