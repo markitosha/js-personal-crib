@@ -1,0 +1,5 @@
+This repository houses condensed overviews of critical JavaScript concepts often discussed in technical interviews. Each section in this repository focuses on a particular JavaScript topic such as operators, functions, the "this" keyword, "new" keyword, lexical environments, inheritance, promises, async/await, generators, the event loop, and the browser rendering process.
+
+These overviews are designed to jog your memory on these essential JavaScript concepts, rather than teach them from scratch. They include key points, brief explanations, and example code snippets, making them an ideal quick reference or revision tool for experienced JavaScript developers prepping for an interview.
+
+This collection does not cover all facets of JavaScript but focuses on the crucial aspects that are often scrutinized during technical assessments. Feel free to contribute and suggest improvements, making this resource even more valuable for the developer community. Remember, it's not about knowing everything, but about being able to recall the fundamentals when they matter the most.
