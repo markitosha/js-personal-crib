@@ -9,7 +9,7 @@ Sure thing, here's the expanded comparison table:
 |---|---|---|---|
 | Scope | Function scope | Block scope | Block scope |
 | Redeclaration | Allowed | Not allowed | Not allowed |
-| Hoisting | Yes, initializes to `undefined` | Yes, but accessing before declaration results in ReferenceError (Temporal Dead Zone) | Yes, but accessing before declaration results in ReferenceError (Temporal Dead Zone) |
+| Hoisting | Yes, initializes to `undefined` | Yes, but accessing before declaration results in ReferenceError | Yes, but accessing before declaration results in ReferenceError |
 | Assignment without declaration | Allowed | Not allowed | Not allowed |
 | Update value after declaration | Allowed | Allowed | Not allowed |
 | Create property on global object when declared at global scope | Yes | No | No |

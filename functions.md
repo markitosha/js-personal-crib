@@ -1,7 +1,5 @@
 # Functions
 
-### Function Declaration vs Function Expression vs Arrow Function:
-
 |          | Function Declaration | Function Expression | Arrow Function |
 |:--------:|:--------------------:|:--------------------:|:--------------:|
 |   Syntax   | function sum(a, b) { <br/> return a + b; <br/> } | let sum = function(a, b) { <br/> return a + b; <br/> }; | let sum = (a, b) => a + b; |
@@ -17,4 +15,4 @@
 - `name`: This property returns the name of the function.
 - `length`: This property returns the number of formal parameters in the function definition.
 - `new Function`: This is a way to create a function from a string of code. However, it's generally not recommended due to security and performance concerns.
-- Functions in JavaScript have their own lexical environment. If a function is defined in the global scope, it will only see the global lexical environment and won't have access to the outer one (if any).
+- Functions in JavaScript have their own lexical environment.
